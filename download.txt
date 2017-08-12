@@ -1,0 +1,9 @@
+BASE_PATH = D:/wuzhijing/resp/QA_demo
+
+DATA_DIR = BASE_PATH/data
+
+SQUAD_DIR = DATA_DIR/squad
+
+GLOVE_DIR = DATA_DIR/glove
+
+python3 -m nltk.downloader -d BASE_PATH/nltk_data punkt
